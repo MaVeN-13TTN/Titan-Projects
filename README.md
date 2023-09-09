@@ -1,0 +1,2 @@
+# bored-projects
+personal projects
