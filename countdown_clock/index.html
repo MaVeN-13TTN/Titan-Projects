@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Countdown Clock</title>
+</head>
+<body>
+<div id="countingdown">
+    <div id="countdownForm">
+        <h2>Custom Countdown</h2>
+        <form id="customCountdownForm">
+            <div class="input-container">
+                <label for="days">Days:</label>
+                <input type="number" id="days" min="0">
+            </div>
+            <div class="input-container">
+                <label for="hours">Hours:</label>
+                <input type="number" id="hours" min="0" max="23">
+            </div>
+            <div class="input-container">
+                <label for="minutes">Minutes:</label>
+                <input type="number" id="minutes" min="0" max="59">
+            </div>
+            <div class="input-container">
+                <label for="seconds">Seconds:</label>
+                <input type="number" id="seconds" min="0" max="59">
+            </div>
+            <button type="button" onclick="startCustomCountdown()">Start Countdown</button>
+            <button type="button" onclick="pauseCustomCountdown()">Pause Countdown</button>
+            <button type="button" onclick="stopCustomCountdown()">Stop and Reset</button>
+        </form>
+    </div>
+
+    <div id="countdown">
+        <div id="tiles">
+            <span id="daysCountdown">00</span>
+            <span id="hoursCountdown">00</span>
+            <span id="minutesCountdown">00</span>
+            <span id="secondsCountdown">00</span>
+        </div>
+    
+        <div class="labels">
+            <li>Days</li>
+            <li>Hours</li>
+            <li>Minutes</li>
+            <li>Seconds</li>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
