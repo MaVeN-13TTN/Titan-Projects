@@ -1,6 +1,6 @@
 # Titan Projects
 
-- These projects showcased implement the use of the project-based learning in my software developer journey.
+- These projects showcased in this repository implement the use of the project-based learning in my software developer journey.
 
 ## Author Details
 - Name: [Ndung'u Kinyanjui]
