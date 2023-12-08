@@ -1,15 +1,17 @@
 # YouTube Video Downloader
 
-This Python script allows you to download YouTube videos using the `pytube` library. It prompts the user to input a YouTube video URL and a storage location, then attempts to download the video in the highest resolution available.
+This Python script allows you to download YouTube videos with ease. It utilizes the `pytube` library to interact with YouTube's API and `requests` for downloading content in chunks. The progress of the download is displayed using the `tqdm` library.
+
+## Features
+
+- **Threaded Downloading:** The script employs multiple threads to download video chunks concurrently, enhancing download speed.
+- **URL Validation:** Ensures that the provided URL is a valid YouTube video URL.
+- **Sanitized Filenames:** Video titles are sanitized to ensure compatibility with file systems.
+- **Progress Tracking:** Utilizes the `tqdm` library to display a progress bar for visualizing the download progress.
 
 ## Prerequisites
 
-- Python 3.x
-- [pytube](https://python-pytube.readthedocs.io/en/latest/)
-- [requests](https://docs.python-requests.org/en/latest/)
-- [tqdm](https://github.com/tqdm/tqdm)
-
-Install the required libraries using the following command:
+Make sure to install the required libraries before running the script. You can install them using the following:
 
 ```bash
 pip install pytube requests tqdm
@@ -17,28 +19,20 @@ pip install pytube requests tqdm
 
 ## Usage
 
-1. Run the script by executing the following command:
+1. Run the script.
+2. Enter the YouTube video URL when prompted.
+3. Provide the absolute path for the storage location.
+4. Enjoy your downloaded video!
 
-```bash
+## Example
+
+```python
 python youtube_downloader.py
 ```
 
-2. Enter the YouTube video URL when prompted.
+## Notes
 
-3. Enter the storage location (absolute path) where you want to save the downloaded video.
+- The script assumes a valid internet connection and may not work with restricted or private videos.
+- Always respect YouTube's terms of service and copyright laws when downloading videos.
 
-The script will download the video with a progress bar displaying the download progress.
-
-## Disclaimer
-
-This script is intended for personal use only. Make sure to comply with YouTube's terms of service and copyright laws when using this script.
-
-## Author
-
-Ndung'u Kinyanjui
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
+**Disclaimer:** This script is for educational purposes only. Downloading copyrighted material without permission may violate terms of service and copyright laws. Use it responsibly and ethically.
