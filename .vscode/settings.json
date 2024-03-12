@@ -1,5 +1,15 @@
 {
-    "cSpell.words": [
-        "KEYDOWN"
-    ]
+  "cSpell.words": [
+    "comtypes",
+    "customtkinter",
+    "KEYDOWN",
+    "padx",
+    "pady",
+    "pdftotext",
+    "poppler",
+    "pytesseract",
+    "shouldbe",
+    "tesseract",
+    "textvariable"
+  ]
 }
