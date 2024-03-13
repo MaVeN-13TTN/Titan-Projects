@@ -3,6 +3,7 @@
     "comtypes",
     "customtkinter",
     "KEYDOWN",
+    "OWASP",
     "padx",
     "pady",
     "pdftotext",
