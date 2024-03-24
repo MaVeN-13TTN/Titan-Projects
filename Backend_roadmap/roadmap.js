@@ -1,88 +1,89 @@
 // Roadmap data
 const roadmap = [
   {
-    month: 'Month 1 (Beginner Level)',
-    topics: ['Python Fundamentals', 'Web Frameworks', 'Version Control'],
-    subTopics: [
-      'Syntax, data types, control flow',
-      'Object-oriented programming (OOP)',
-      'Functions, modules, and packages',
-      'Introduction to Django',
-      'Building simple CRUD applications with Django',
-      'Git fundamentals',
-      'Branching, merging, and collaboration on GitHub'
+    "month": "Month 1 (Beginner Level)",
+    "topics": ["Python Fundamentals", "Web Frameworks", "Version Control"],
+    "subTopics": [
+      "Syntax, data types, control flow",
+      "Object-oriented programming (OOP)",
+      "Functions, modules, and packages",
+      "Introduction to Django",
+      "Building simple CRUD applications with Django",
+      "Git fundamentals",
+      "Branching, merging, and collaboration on GitHub"
     ]
   },
   {
-    month: 'Month 2 (Beginner/Intermediate Level)',
-    topics: ['Web Frameworks', 'Databases'],
-    subTopics: [
-      'Advanced Django concepts (middleware, templates, ORM)',
-      'Introduction to Flask',
-      'Building simple CRUD applications with Flask',
-      'SQL fundamentals',
-      'Relational databases (PostgreSQL)',
-      'Data modeling and schema design'
+    "month": "Month 2 (Beginner/Intermediate Level)",
+    "topics": ["Web Frameworks", "Databases"],
+    "subTopics": [
+      "Advanced Django concepts (middleware, templates, ORM)",
+      "Introduction to Flask",
+      "Building simple CRUD applications with Flask",
+      "SQL fundamentals",
+      "Relational databases (PostgreSQL)",
+      "Data modeling and schema design"
     ]
   },
   {
-    month: 'Month 3 (Intermediate Level)',
-    topics: ['API Development', 'API Security', 'Testing'],
-    subTopics: [
-      'RESTful API design principles',
-      'Building RESTful APIs with Django REST Framework or Flask-RESTful',
-      'Authentication and authorization (JWT, OAuth)',
-      'OWASP API Security best practices',
-      'Token-based authentication',
-      'CORS and CSRF protection',
-      'Unit testing in Python',
-      'Test-driven development (TDD)'
+    "month": "Month 3 (Intermediate Level)",
+    "topics": ["API Development", "API Security", "Testing"],
+    "subTopics": [
+      "RESTful API design principles",
+      "Building RESTful APIs with Django REST Framework or Flask-RESTful",
+      "Authentication and authorization (JWT, OAuth)",
+      "OWASP API Security best practices",
+      "Token-based authentication",
+      "CORS and CSRF protection",
+      "Unit testing in Python",
+      "Test-driven development (TDD)"
     ]
   },
   {
-    month: 'Month 4 (Intermediate Level)',
-    topics: ['Software Design and Architecture', 'NoSQL Databases', 'Caching'],
-    subTopics: [
-      'Design patterns (MVC, Singleton, Factory)',
-      'Architectural styles (microservices, monolithic)',
-      'Designing scalable and maintainable systems',
-      'MongoDB',
-      'Data modeling for NoSQL databases',
-      'Redis',
-      'Caching strategies for performance optimization'
+    "month": "Month 4 (Intermediate Level)",
+    "topics": ["Software Design and Architecture", "NoSQL Databases", "Caching"],
+    "subTopics": [
+      "Design patterns (MVC, Singleton, Factory)",
+      "Architectural styles (microservices, monolithic)",
+      "Designing scalable and maintainable systems",
+      "MongoDB",
+      "Data modeling for NoSQL databases",
+      "Redis",
+      "Caching strategies for performance optimization"
     ]
   },
   {
-    month: 'Month 5 (Advanced Level)',
-    topics: ['Cloud Services', 'Containerization', 'Message Brokers', 'Web Servers'],
-    subTopics: [
-      'AWS services (EC2, S3, Lambda)',
-      'Firebase for real-time data synchronization',
-      'Docker basics',
-      'Container orchestration with Kubernetes',
-      'RabbitMQ',
-      'Pub-sub architecture and use cases',
-      'NGINX for reverse proxy and load balancing'
+    "month": "Month 5 (Advanced Level)",
+    "topics": ["Cloud Services", "Containerization", "Message Brokers", "Web Servers"],
+    "subTopics": [
+      "AWS services (EC2, S3, Lambda)",
+      "Firebase for real-time data synchronization",
+      "Docker basics",
+      "Container orchestration with Kubernetes",
+      "RabbitMQ",
+      "Pub-sub architecture and use cases",
+      "NGINX for reverse proxy and load balancing"
     ]
   },
   {
-    month: 'Month 6 (Advanced Level)',
-    topics: ['GraphQL', 'Advanced Topics', 'Portfolio and Interview Preparation'],
-    subTopics: [
-      'Introduction to GraphQL',
-      'Building GraphQL APIs',
-      'Advantages over RESTful APIs',
-      'Async programming and event-driven architecture',
-      'WebSockets and real-time communication',
-      'Serverless computing (AWS Lambda, Google Cloud Functions)',
-      'Authentication mechanisms (OAuth, OpenID Connect)',
-      'Build and deploy a full-fledged backend project',
-      'Prepare a portfolio showcasing your projects',
-      'Practice coding challenges and system design problems',
-      'Prepare for behavioral and technical interviews'
+    "month": "Month 6 (Advanced Level)",
+    "topics": ["GraphQL", "Advanced Topics", "Portfolio and Interview Preparation"],
+    "subTopics": [
+      "Introduction to GraphQL",
+      "Building GraphQL APIs",
+      "Advantages over RESTful APIs",
+      "Async programming and event-driven architecture",
+      "WebSockets and real-time communication",
+      "Serverless computing (AWS Lambda, Google Cloud Functions)",
+      "Authentication mechanisms (OAuth, OpenID Connect)",
+      "Build and deploy a full-fledged backend project",
+      "Prepare a portfolio showcasing your projects",
+      "Practice coding challenges and system design problems",
+      "Prepare for behavioral and technical interviews"
     ]
   }
 ];
+
 
 const tableBody = document.querySelector('#roadmapTable tbody');
 const progressBar = document.querySelector('.progress-bar div');
