@@ -36,7 +36,9 @@ def validate_url(url):
     Returns:
         True if the URL is valid, False otherwise.
     """
-    return url.startswith("https://youtu.be/") or url.startswith("https://www.youtube.com/watch?v=")
+    return url.startswith("https://youtu.be/") or url.startswith(
+        "https://www.youtube.com/watch?v="
+    )
 
 
 def download_youtube_video(video_url, storage_location, num_threads=8, block_size=4096):
